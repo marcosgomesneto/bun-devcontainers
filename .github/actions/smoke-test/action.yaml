@@ -17,6 +17,11 @@ runs:
       shell: bash
       run: ls -l ${{ github.action_path }}/build.sh
 
+    - name: Add execute permissions to script
+      id: add_execute_permissions
+      shell: bash
+      run: chmod +x ${{ github.action_path }}/build.sh
+
     - name: Build template
       id: build_template
       shell: bash
