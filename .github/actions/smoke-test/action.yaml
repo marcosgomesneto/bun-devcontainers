@@ -1,7 +1,8 @@
-name: 'Smoke test'
+name: "Smoke test"
+description: "Run smoke tests on the template"
 inputs:
   template:
-    description: 'Template to test'
+    description: "Template to test"
     required: true
 
 runs:
@@ -10,6 +11,11 @@ runs:
     - name: Checkout main
       id: checkout_release
       uses: actions/checkout@v3
+
+    - name: Print file permissions
+      id: print_file_permissions
+      shell: bash
+      run: ls -l ${{ github.action_path }}/build.sh
 
     - name: Build template
       id: build_template
