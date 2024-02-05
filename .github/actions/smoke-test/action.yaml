@@ -20,7 +20,7 @@ runs:
     - name: Add execute permissions to script
       id: add_execute_permissions
       shell: bash
-      run: chmod +x ${{ github.action_path }}/build.sh
+      run: find . -name "*.sh" -exec chmod +x {} \;
 
     - name: Build template
       id: build_template
