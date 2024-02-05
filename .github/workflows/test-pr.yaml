@@ -13,7 +13,6 @@ jobs:
         with:
           filters: |
             basic-bun: ./**/basic-bun/**
-
   test:
     needs: [detect-changes]
     runs-on: ubuntu-latest
