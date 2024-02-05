@@ -1,0 +1,20 @@
+// More info: https://containers.dev/implementors/json_reference/
+{
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mads-hartmann.bash-ide-vscode",
+                "esbenp.prettier-vscode",
+                "redhat.vscode-yaml"
+            ],
+            "settings": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+            }
+        }
+    },
+    "postCreateCommand": "npm install -g @devcontainers/cli"
+}
