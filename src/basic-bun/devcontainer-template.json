@@ -1,6 +1,6 @@
 {
   "id": "basic-bun",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "Basic Bun",
   "description": "A basic Bun Runtime development container.",
   "publisher": "Marcos Gomes Neto",
