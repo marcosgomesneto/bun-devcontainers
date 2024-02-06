@@ -1,5 +1,5 @@
 
-# Bun.sh Runtime (basic-bun)
+# Bun (basic-bun)
 
 A basic Bun Runtime development container.
 
