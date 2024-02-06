@@ -1,7 +1,7 @@
 {
   "id": "basic-bun",
-  "version": "0.0.3",
-  "name": "Bun.sh Runtime",
+  "version": "0.0.4",
+  "name": "Bun",
   "description": "A basic Bun Runtime development container.",
   "publisher": "Marcos Gomes Neto",
   "documentationURL": "https://github.com/marcosgomesneto/bun-devcontainers/tree/main/src/basic-bun",
