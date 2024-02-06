@@ -25,7 +25,7 @@ Before you begin, make sure you have the following installed on your machine:
     - Type "Remote-Containers: Reopen in Container" and press Enter.
 3. **Select the Basic Bun Template:**
     
-    - In the Remote-Containers menu, choose **Remote-Containers: Add Development Container Configuration Files...**
+    - In the Remote-Containers menu, choose a template:
     - Browse or search for the "Bun" template.
     - Select the template to initiate the creation of your Bun-powered development environment.
 4. **Let the Magic Begin:**
