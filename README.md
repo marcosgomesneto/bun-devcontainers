@@ -5,6 +5,12 @@
 
 Welcome to the Bun Dev Containers! 🚀 – the cornerstone for a streamlined Bun Runtime development environment across various operating systems! ✨
 
+## Available Templates
+
+- Bun
+- Bun & PostgreSQL
+- Bun & MariaDB
+
 ## Prerequisites
 
 Before you begin, make sure you have the following installed on your machine:
