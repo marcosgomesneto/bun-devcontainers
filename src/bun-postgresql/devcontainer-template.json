@@ -1,0 +1,27 @@
+{
+  "id": "bun-postgresql",
+  "version": "0.0.1",
+  "name": "Bun & PostgreSQL",
+  "description": "Develop applications in Bun and PostgreSQL.",
+  "publisher": "Marcos Gomes Neto",
+  "documentationURL": "https://github.com/marcosgomesneto/bun-devcontainers/tree/main/src/bun-postgresql",
+  "licenseURL": "https://github.com/marcosgomesneto/bun-devcontainers/blob/main/LICENSE",
+  "options": {
+    "imageVariant": {
+      "type": "string",
+      "description": "Choose your Bun image tag.",
+      "proposals": [
+        "latest",
+        "canary-distroless",
+        "canary-slim",
+        "canary"
+      ],
+      "default": "latest"
+    }
+  },
+  "platforms": [
+    "Bun",
+    "TypeScript",
+    "PostgreSQL"
+  ]
+}

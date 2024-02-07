@@ -1,0 +1,27 @@
+{
+  "id": "bun-mariadb",
+  "version": "0.0.1",
+  "name": "Bun & MariaDB",
+  "description": "Develop applications in Bun and MariaDB.",
+  "publisher": "Marcos Gomes Neto",
+  "documentationURL": "https://github.com/marcosgomesneto/bun-devcontainers/tree/main/src/bun-mariadb",
+  "licenseURL": "https://github.com/marcosgomesneto/bun-devcontainers/blob/main/LICENSE",
+  "options": {
+    "imageVariant": {
+      "type": "string",
+      "description": "Choose your Bun image tag.",
+      "proposals": [
+        "latest",
+        "canary-distroless",
+        "canary-slim",
+        "canary"
+      ],
+      "default": "latest"
+    }
+  },
+  "platforms": [
+    "Bun",
+    "TypeScript",
+    "MariaDB (MySQL Compatible)"
+  ]
+}
