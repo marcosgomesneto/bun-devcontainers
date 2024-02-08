@@ -28,11 +28,12 @@ Before you begin, make sure you have the following installed on your machine:
 2. **Create a New Dev Container:**
     
     - Navigate to the top menu and select **View > Command Palette** or use the shortcut `Ctrl + Shift + P`.
-    - Type "Remote-Containers: Reopen in Container" and press Enter.
+    - Type "Remote-Containers: Reopen in Container" or "New Dev Container" and press Enter.
 3. **Select the Basic Bun Template:**
     
     - In the Remote-Containers menu, choose a template:
-    - Browse or search for the "Bun" template.
+    - Select **"Show All Definitions"** for show community templates.
+    - Browse or search for the **"Bun"** template with author **marcosgomesneto**.
     - Select the template to initiate the creation of your Bun-powered development environment.
 4. **Let the Magic Begin:**
     
