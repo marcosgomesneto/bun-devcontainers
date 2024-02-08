@@ -7,7 +7,7 @@ Develop applications in Bun and MariaDB.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageVariant | Choose your Bun image tag. | string | latest |
+| imageVariant | Choose your Bun image tag. | string | debian |
 
 
 
