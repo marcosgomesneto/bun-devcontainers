@@ -1,6 +1,6 @@
 {
   "id": "bun-postgresql",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "Bun & PostgreSQL",
   "description": "Develop applications in Bun and PostgreSQL.",
   "publisher": "Marcos Gomes Neto",
