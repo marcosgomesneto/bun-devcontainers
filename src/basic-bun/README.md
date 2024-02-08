@@ -7,7 +7,7 @@ A basic Bun Runtime development container.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageVariant | Choose your Bun version. | string | latest |
+| imageVariant | Choose your Bun version. | string | debian |
 
 
 
