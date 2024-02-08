@@ -11,12 +11,12 @@
       "type": "string",
       "description": "Choose your Bun version.",
       "proposals": [
-        "latest",
-        "canary-distroless",
-        "canary-slim",
-        "canary"
+        "debian",
+        "slim",
+        "alpine",
+        "distroless"
       ],
-      "default": "latest"
+      "default": "debian"
     }
   },
   "platforms": [
