@@ -15,11 +15,13 @@ Welcome to the Bun Dev Containers! 🚀 – the cornerstone for a streamlined Bu
 
 Before you begin, make sure you have the following installed on your machine:
 
-- Visual Studio Code
+- Your Preferred IDE, See Dev Contaiers Compatibility: [Dev Containers IDEs](https://containers.dev/supporting)
 - [Docker](https://www.docker.com/)
-- [Dev Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+- Dev Containers Extension
 
-## Getting Started
+## Getting Started (Using VSCode)
+
+<img src="https://github.com/marcosgomesneto/marcosgomesneto/blob/main/images/bun-devcontainers.gif?raw=true"/>
 
 1. **Open Visual Studio Code:**
     
