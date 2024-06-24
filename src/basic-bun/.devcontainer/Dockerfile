@@ -5,7 +5,8 @@ ENV PATH="~/.bun/bin:${PATH}"
 RUN ln -s /usr/local/bin/bun /usr/local/bin/node
 
 # Update packages
-RUN apt-get update
+RUN if [ "${templateOption:imageVariant}" == "alpine" ] ; then apk update ; else apt-get update ; fi
 
 # Install Git
-RUN apt-get update && apt-get install -y git
+RUN if [ "${templateOption:imageVariant}" == "alpine" ] ; then apk add git ; else apt-get install -y git ; fi
+
