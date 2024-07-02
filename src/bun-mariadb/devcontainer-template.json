@@ -1,6 +1,6 @@
 {
   "id": "bun-mariadb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "name": "Bun & MariaDB",
   "description": "Develop applications in Bun and MariaDB.",
   "publisher": "Marcos Gomes Neto",
