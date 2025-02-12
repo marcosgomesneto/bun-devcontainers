@@ -15,7 +15,7 @@ Welcome to the Bun Dev Containers! 🚀 – the cornerstone for a streamlined Bu
 
 Before you begin, make sure you have the following installed on your machine:
 
-- Your Preferred IDE, See Dev Contaiers Compatibility: [Dev Containers IDEs](https://containers.dev/supporting)
+- Your Preferred IDE, See Dev Containers Compatibility: [Dev Containers IDEs](https://containers.dev/supporting)
 - [Docker](https://www.docker.com/)
 - Dev Containers Extension
 
