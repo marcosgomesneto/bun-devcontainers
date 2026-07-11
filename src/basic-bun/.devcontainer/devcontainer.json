@@ -3,6 +3,17 @@
 {
   "name": "Bun",
   "dockerFile": "Dockerfile",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": "true",
+      "configureZshAsDefaultShell": "true",
+      "installOhMyZsh": "true",
+      "username": "bun",
+      "upgradePackages": "true"
+    }
+  },
   // Configure tool-specific properties.
   "customizations": {
     // Configure properties specific to VS Code.
@@ -12,5 +23,6 @@
         "oven.bun-vscode"
       ]
     }
-  }
+  },
+  "remoteUser": "bun"
 }
